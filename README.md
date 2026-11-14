@@ -6,23 +6,23 @@ The course covers modern JavaScript/TypeScript web development: React, Zustand, 
 
 ## Progress
 
-| Part | Topic | Status |
-| ---- | ----- | ------ |
-| [0](part0) | Fundamentals of Web apps | 🟡 |
-| [1](part1) | Introduction to React | ⬜ |
-| [2](part2) | Communicating with server | ⬜ |
-| [3](part3) | Programming a server with NodeJS and Express | ⬜ |
-| [4](part4) | Testing Express servers, user administration | ⬜ |
-| [5](part5) | Testing React apps, React Router | ⬜ |
-| [6](part6) | Advanced state management | ⬜ |
-| [7](part7) | Custom hooks, esbuild | ⬜ |
-| [8](part8) | GraphQL | ⬜ |
-| [9](part9) | TypeScript | ⬜ |
-| [10](part10) | React Native | ⬜ |
-| [11](part11) | CI/CD | ⬜ |
-| [12](part12) | Containers | ⬜ |
-| [13](part13) | Using relational databases | ⬜ |
-| [14](part14) | Next.js | ⬜ |
+| Part         | Topic                                        | Status |
+| ------------ | -------------------------------------------- | ------ |
+| [0](part0)   | Fundamentals of Web apps                     | ✅     |
+| [1](part1)   | Introduction to React                        | ✅     |
+| [2](part2)   | Communicating with server                    | 🟡     |
+| [3](part3)   | Programming a server with NodeJS and Express | ⬜     |
+| [4](part4)   | Testing Express servers, user administration | ⬜     |
+| [5](part5)   | Testing React apps, React Router             | ⬜     |
+| [6](part6)   | Advanced state management                    | ⬜     |
+| [7](part7)   | Custom hooks, esbuild                        | ⬜     |
+| [8](part8)   | GraphQL                                      | ⬜     |
+| [9](part9)   | TypeScript                                   | ⬜     |
+| [10](part10) | React Native                                 | ⬜     |
+| [11](part11) | CI/CD                                        | ⬜     |
+| [12](part12) | Containers                                   | ⬜     |
+| [13](part13) | Using relational databases                   | ⬜     |
+| [14](part14) | Next.js                                      | ⬜     |
 
 Legend: ⬜ not started · 🟡 in progress · ✅ done
 
@@ -70,6 +70,21 @@ npm test        # test suite, where present
 
 Any environment variables a project needs are documented in its own README or
 `.env.example` file. `.env` files are not committed.
+
+## Formatting
+
+Prettier is installed once at the repository root and formats the whole repo
+(single quotes, semicolons). Linting stays per app (Oxlint for the Vite apps).
+
+```bash
+npm install            # from the repository root, once
+npm run format         # format all files
+npm run format:check   # check formatting without changing files
+```
+
+For format-on-save, open the repository root in VS Code and install the
+recommended **Prettier - Code formatter** extension (`esbenp.prettier-vscode`).
+Generated files, lockfiles and static assets are excluded via `.prettierignore`.
 
 ## Notes
 

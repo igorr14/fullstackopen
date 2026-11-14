@@ -1,0 +1,12 @@
+{
+  "name": "fullstackopen",
+  "private": true,
+  "description": "Repository-wide tooling. Each app installs its own dependencies.",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.10.1"
+  }
+}

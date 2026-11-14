@@ -2,8 +2,8 @@
 
 [Course material](https://fullstackopen.com/en/part10)
 
-| App | Exercises | Topic |
-| --- | --------- | ----- |
+| App                   | Exercises  | Topic                                           |
+| --------------------- | ---------- | ----------------------------------------------- |
 | `rate-repository-app` | 10.1–10.28 | Expo, native components, forms, Apollo, testing |
 
 Requires Expo Go on a device or an Android/iOS emulator.

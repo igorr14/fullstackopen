@@ -66,8 +66,12 @@ web-build/
 .idea/
 .vscode/*
 !.vscode/extensions.json
-*.swp
-*.swo
+!.vscode/settings.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
 # OS files
 .DS_Store

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+docs/
+.codemie/
+.claude/
+package-lock.json
+public/
+src/assets/
