@@ -1,0 +1,110 @@
+{
+  "persons": [
+    {
+      "name": "Elvis Presley",
+      "number": "040-1935108",
+      "id": "1"
+    },
+    {
+      "name": "Marilyn Monroe",
+      "number": "39-44-1926601",
+      "id": "2"
+    },
+    {
+      "name": "Freddie Mercury",
+      "number": "12-43-1946905",
+      "id": "3"
+    },
+    {
+      "name": "Frida Kahlo",
+      "number": "52-55-1907706",
+      "id": "4"
+    },
+    {
+      "name": "David Bowie",
+      "number": "44-20-1947108",
+      "id": "5"
+    },
+    {
+      "name": "Audrey Hepburn",
+      "number": "32-2-1929504",
+      "id": "6"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "number": "040-1942112",
+      "id": "7"
+    },
+    {
+      "name": "Charlie Chaplin",
+      "number": "44-20-1889416",
+      "id": "8"
+    },
+    {
+      "name": "Bob Marley",
+      "number": "18-76-1945206",
+      "id": "9"
+    },
+    {
+      "name": "Andy Warhol",
+      "number": "12-43-1928806",
+      "id": "10"
+    },
+    {
+      "name": "Amy Winehouse",
+      "number": "44-20-1983914",
+      "id": "11"
+    },
+    {
+      "name": "Michael Jackson",
+      "number": "39-23-1958829",
+      "id": "12"
+    },
+    {
+      "name": "John Lennon",
+      "number": "44-151-1940109",
+      "id": "13"
+    },
+    {
+      "name": "Madonna",
+      "number": "12-43-1958816",
+      "id": "14"
+    },
+    {
+      "name": "Pablo Picasso",
+      "number": "34-95-1881025",
+      "id": "15"
+    },
+    {
+      "name": "Bruce Lee",
+      "number": "852-1940127",
+      "id": "16"
+    },
+    {
+      "name": "Whitney Houston",
+      "number": "18-73-1963809",
+      "id": "17"
+    },
+    {
+      "name": "Kurt Cobain",
+      "number": "12-36-1967220",
+      "id": "18"
+    },
+    {
+      "name": "Frank Sinatra",
+      "number": "12-20-1915112",
+      "id": "19"
+    },
+    {
+      "name": "Salvador Dali",
+      "number": "34-97-1904511",
+      "id": "21"
+    },
+    {
+      "name": "new",
+      "number": "1111",
+      "id": "JxkoWsaS36c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
